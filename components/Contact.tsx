@@ -68,7 +68,7 @@ const Contact = (props: Props) => {
 
                         <input name="_subject" required  placeholder="Subject" className="contactInput" type="text" />
 
-                        <textarea name="message" required placeholder="Message" rows="3" className="contactInput" />
+                        <textarea name="message" required placeholder="Message" rows={3} className="contactInput" />
                         <button type="submit" className="button-style py-4 rounded-md text-white font-bold text-lg">Submit</button>
                     </motion.form>
                 </motion.div>
