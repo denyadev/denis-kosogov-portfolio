@@ -45,11 +45,11 @@ const Header = (props: Props) => {
                     {/* Socials */}
                     <div className="hidden xl:flex items-center group" >
                         <SocialIcon url="https://linkedin.com/in/denis-kosogov/" target="_blank" fgColor="white" bgColor="transparent"/>
-                        <a href="https://linkedin.com/in/denis-kosogov/" target="_blank" className='font-normal text-xs text-gray-400 group-hover:text-[#64F4AC]'>Linkedin</a>
+                        <a href="https://linkedin.com/in/denis-kosogov/" target="_blank" rel="noreferrer" className='font-normal text-xs text-gray-400 group-hover:text-[#64F4AC]'>Linkedin</a>
                     </div>
                     <div className="hidden xl:flex  items-center group" >
                         <SocialIcon url="https://github.com/denyadev" target="_blank" fgColor="white" bgColor="transparent"/>
-                        <a href="https://github.com/denyadev" target="_blank" className='font-normal text-xs text-gray-400 group-hover:text-[#64F4AC]'>Github</a>
+                        <a href="https://github.com/denyadev" target="_blank" rel="noreferrer" className='font-normal text-xs text-gray-400 group-hover:text-[#64F4AC]'>Github</a>
                     </div>
                     <div className='hidden xl:flex bg-[#333438] rounded-full p-0 hover:bg-[#4c4d52]'>
                         <SocialIcon className="cursor-pointer" network="email" fgColor="#64F4AC" bgColor="transparent" onClick={() => fullpage.moveTo(4)}/>

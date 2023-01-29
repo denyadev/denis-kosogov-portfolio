@@ -62,7 +62,7 @@ const Portfolio = (props: Props) => {
                 initial={{ opacity: 0 }}
                 whileInView={{ opacity: 1 }}
                 transition={{ duration: 1.5 }}>
-                    <a href="https://github.com/denyadev?tab=repositories" target="_blank" className="underline underline-offset-4 text-[#64F4AC] text-xl font-semibold">ALL PROJECTS</a>
+                    <a href="https://github.com/denyadev?tab=repositories" target="_blank" rel="noreferrer" className="underline underline-offset-4 text-[#64F4AC] text-xl font-semibold">ALL PROJECTS</a>
                     <p className='text-gray-400'>* Some projects are not allowed to be published, if you want to see more contact me</p>
                 </motion.div>
             </div>
