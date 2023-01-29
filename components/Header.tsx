@@ -1,10 +1,10 @@
-import type { FullpageApi } from '@fullpage/react-fullpage';
+
 import React, { useState, useEffect } from 'react'
 import { SocialIcon } from 'react-social-icons'
 import { motion } from 'framer-motion'
 
 type Props = {
-    fullpage: FullpageApi
+    fullpage: any
 }
 
 const Header = (props: Props) => {
