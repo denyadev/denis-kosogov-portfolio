@@ -1,11 +1,10 @@
 import React from 'react'
-import type { FullpageApi } from '@fullpage/react-fullpage';
 import { Cursor, useTypewriter } from 'react-simple-typewriter'
 import { motion } from 'framer-motion'
 import Image from 'next/image'
 
 type Props = {
-    fullpage: FullpageApi
+    fullpage: any
 }
 
 const Hero = (props: Props) => {
