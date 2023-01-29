@@ -47,12 +47,12 @@ const Contact = (props: Props) => {
                         </div>
                         <div className="flex gap-8">
                             <div className="flex items-center gap-2 group">
-                                <SocialIcon url="https://linkedin.com/in/denis-kosogov/" target="_blank" rel="noreferrer" fgColor="white" bgColor="#333438"/>
-                                <a href="https://linkedin.com/in/denis-kosogov/" target="_blank" className='font-normal text-sm text-gray-400 group-hover:text-[#64F4AC]'>Linkedin</a>
+                                <SocialIcon url="https://linkedin.com/in/denis-kosogov/" target="_blank" fgColor="white" bgColor="#333438"/>
+                                <a href="https://linkedin.com/in/denis-kosogov/" target="_blank"  rel="noreferrer" className='font-normal text-sm text-gray-400 group-hover:text-[#64F4AC]'>Linkedin</a>
                             </div>
                             <div className="flex items-center gap-2 group">
-                                <SocialIcon url="https://github.com/denyadev" target="_blank" rel="noreferrer" fgColor="white" bgColor="#333438"/>
-                                <a href="https://github.com/denyadev" target="_blank" className='font-normal text-sm text-gray-400 group-hover:text-[#64F4AC]'>Github</a>
+                                <SocialIcon url="https://github.com/denyadev" target="_blank" fgColor="white" bgColor="#333438"/>
+                                <a href="https://github.com/denyadev" target="_blank"  rel="noreferrer" className='font-normal text-sm text-gray-400 group-hover:text-[#64F4AC]'>Github</a>
                             </div>
                         </div>
                     </motion.div>
