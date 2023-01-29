@@ -1,10 +1,19 @@
 import React from 'react'
 import Image from 'next/image'
 
-type Props = {
-    project: any,
-    color: string
+interface Project {
+    title: string,
+    image: string,
+    stacktext: string[],
+    link: string,
+    github: string
 }
+
+type Props = {
+    project: Project,
+    color: string,
+}
+
 
 const ProjectCard = ({ project, color }: Props) => {
 
