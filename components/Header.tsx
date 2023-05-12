@@ -68,6 +68,7 @@ const Header = (props: Props) => {
                         <a
                             href="https://linkedin.com/in/denis-kosogov/"
                             target="_blank"
+                            rel="noreferrer"
                             className="font-normal text-xs text-gray-400 group-hover:text-[#64F4AC]">
                             Linkedin
                         </a>
@@ -82,6 +83,7 @@ const Header = (props: Props) => {
                         <a
                             href="https://github.com/denyadev"
                             target="_blank"
+                            rel="noreferrer"
                             className="font-normal text-xs text-gray-400 group-hover:text-[#64F4AC]">
                             Github
                         </a>

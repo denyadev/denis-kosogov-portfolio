@@ -73,6 +73,7 @@ const Contact = (props: Props) => {
                                 <a
                                     href="https://linkedin.com/in/denis-kosogov/"
                                     target="_blank"
+                                    rel="noreferrer"
                                     className="font-normal text-sm text-gray-400 group-hover:text-[#64F4AC]">
                                     Linkedin
                                 </a>
@@ -87,6 +88,7 @@ const Contact = (props: Props) => {
                                 <a
                                     href="https://github.com/denyadev"
                                     target="_blank"
+                                    rel="noreferrer"
                                     className="font-normal text-sm text-gray-400 group-hover:text-[#64F4AC]">
                                     Github
                                 </a>

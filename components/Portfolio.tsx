@@ -74,6 +74,7 @@ const Portfolio = (props: Props) => {
                             <a
                                 href="https://github.com/denyadev?tab=repositories"
                                 target="_blank"
+                                rel="noreferrer"
                                 className="underline underline-offset-4 text-[#64F4AC] text-xl font-semibold">
                                 ALL PROJECTS
                             </a>
