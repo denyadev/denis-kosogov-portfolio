@@ -1,25 +1,11 @@
 import React from "react";
 import { MapPinIcon, EnvelopeIcon } from "@heroicons/react/24/solid";
-import { useForm, SubmitHandler } from "react-hook-form";
 import { SocialIcon } from "react-social-icons";
 import { motion } from "framer-motion";
-
-type Inputs = {
-    name: string;
-    email: string;
-    subject: string;
-    message: string;
-};
 
 type Props = {};
 
 const Contact = (props: Props) => {
-    const { register, handleSubmit } = useForm<Inputs>();
-
-    const onSubmit: SubmitHandler<Inputs> = (formData) => {
-        window.location.href = `mailto:denis.kosogov@gmail.com?subject=${formData.subject}&body=Hi, my name is ${formData.name}. ${formData.message} (${formData.email})`;
-    };
-
     return (
         <div className="bg-gradient-to-br from-[#2D2E32]">
             <div className="h-screen container mx-auto">
@@ -141,7 +127,7 @@ const Contact = (props: Props) => {
                             name="message"
                             required
                             placeholder="Message"
-                            rows="3"
+                            rows={3}
                             className="contactInput"
                         />
                         <button
