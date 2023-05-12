@@ -36,7 +36,7 @@ const About = (props: Props) => {
                 transition={{ duration: 1, delay: 0.6 }}>
                     <p className="text-[#64F4AC] text-base md:text-lg">Introduction</p>
                     <h4 className="text-2xl md:text-4xl lg:text-5xl font-normal">Here is a <span className="underline decoration-[#64F4AC]">little</span> background</h4>
-                    <p className="text-gray-400 text-xs md:text-base leading-7">A recent grad with a passion for web development and a knack for crafting user-friendly interfaces. With a year of experience under my belt and a solid understanding of back-end tech, I&apos;m ready to bring my skills to a new role and continue growing as a developer. Bonus: I&apos;ve got mad problem-solving and communication skills from teaching programming. Let&apos;s build something great together!
+                    <p className="text-gray-400 text-xs md:text-base leading-7">A recent grad with a passion for web development and a knack for crafting user-friendly interfaces. With a year of experience under my belt and a solid understanding of back-end tech, I'm ready to bring my skills to a new role and continue growing as a developer. Bonus: I've got mad problem-solving and communication skills from teaching programming. Let's build something great together!
                     </p>
                     <a href="/api/resume" download>
                         <button className="button-style p-4 flex items-center gap-2 mt-8">

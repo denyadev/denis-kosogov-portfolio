@@ -34,7 +34,7 @@ const Contact = (props: Props) => {
                     <motion.div className="space-y-6 md:space-y-10 mx-auto lg:mx-0" initial={{ opacity: 0 }}
                         whileInView={{ opacity: 1 }}
                         transition={{ duration: 1, delay: 0.6 }}>
-                        <h4 className="text-xl md:text-3xl font-semibold"><span className="text-[#64F4AC] font-bold">Don&apos;t be shy. </span><span className="decoration-[#f7ab0a]/50">Drop me a line.</span></h4>
+                        <h4 className="text-xl md:text-3xl font-semibold"><span className="text-[#64F4AC] font-bold">Don't be shy. </span><span className="decoration-[#f7ab0a]/50">Drop me a line.</span></h4>
                         <div className="space-y-4">
                             <div className="flex items-center space-x-5">
                                 <MapPinIcon className="text-[#64F4AC] h-6 w-6 md:h-10 md:w-10 animate-pulse"/>
@@ -48,11 +48,11 @@ const Contact = (props: Props) => {
                         <div className="flex gap-8">
                             <div className="flex items-center gap-2 group">
                                 <SocialIcon url="https://linkedin.com/in/denis-kosogov/" target="_blank" fgColor="white" bgColor="#333438"/>
-                                <a href="https://linkedin.com/in/denis-kosogov/" target="_blank"  rel="noreferrer" className='font-normal text-sm text-gray-400 group-hover:text-[#64F4AC]'>Linkedin</a>
+                                <a href="https://linkedin.com/in/denis-kosogov/" target="_blank" className='font-normal text-sm text-gray-400 group-hover:text-[#64F4AC]'>Linkedin</a>
                             </div>
                             <div className="flex items-center gap-2 group">
                                 <SocialIcon url="https://github.com/denyadev" target="_blank" fgColor="white" bgColor="#333438"/>
-                                <a href="https://github.com/denyadev" target="_blank"  rel="noreferrer" className='font-normal text-sm text-gray-400 group-hover:text-[#64F4AC]'>Github</a>
+                                <a href="https://github.com/denyadev" target="_blank" className='font-normal text-sm text-gray-400 group-hover:text-[#64F4AC]'>Github</a>
                             </div>
                         </div>
                     </motion.div>
@@ -68,7 +68,7 @@ const Contact = (props: Props) => {
 
                         <input name="_subject" required  placeholder="Subject" className="contactInput" type="text" />
 
-                        <textarea name="message" required placeholder="Message" rows={3} className="contactInput" />
+                        <textarea name="message" required placeholder="Message" rows="3" className="contactInput" />
                         <button type="submit" className="button-style py-4 rounded-md text-white font-bold text-lg">Submit</button>
                     </motion.form>
                 </motion.div>
